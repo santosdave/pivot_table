@@ -1,0 +1,29 @@
+@mixin border-vertical-style($style) {
+    border-bottom-style: $style;
+    border-top-style: $style;
+  }
+  
+  @mixin border-vertical-width($width) {
+    border-bottom-width: $width;
+    border-top-width: $width;
+  }
+  
+  @mixin padding-vertical($padding) {
+    padding-bottom: $padding;
+    padding-top: $padding;
+  }
+  
+$table-base-padding: 16px;
+
+$background: rgb(51, 51, 51);
+
+.totalRow {
+  background: $background;
+  color: white;
+  font-weight: bold;
+
+  td,
+  th {
+    @include padding-vertical($table-base-padding * .75);
+  }
+}

@@ -1,0 +1,43 @@
+@import './rowDimensionRowHeading';
+
+@mixin border-vertical-style($style) {
+    border-bottom-style: $style;
+    border-top-style: $style;
+  }
+  
+  @mixin border-vertical-width($width) {
+    border-bottom-width: $width;
+    border-top-width: $width;
+  }
+  
+  @mixin padding-vertical($padding) {
+    padding-bottom: $padding;
+    padding-top: $padding;
+  }
+  
+$table-base-padding: 16px;
+
+$background: rgb(238, 238, 238);
+
+.totalRow {
+  background: $background;
+  font-weight: bold;
+
+  @extend .rowDimensionRowHeading;
+
+  td,
+  th {
+    background: $background;
+    border-color: rgb(221, 221, 221);
+
+    @include border-vertical-style(solid);
+    @include border-vertical-width(1px);
+    @include padding-vertical($table-base-padding / 2);
+  }
+
+  th {
+    &:last-of-type {
+      @extend .rowDimensionLastHeading;
+    }
+  }
+}

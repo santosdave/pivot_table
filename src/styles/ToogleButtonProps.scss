@@ -1,0 +1,27 @@
+$table-base-padding: 16px;
+
+$flex: 0 1;
+
+.button {
+  border-radius: .25em;
+  padding: .2em;
+}
+
+.enabled {
+  cursor: pointer;
+
+  &:hover {
+    background: scale-color(rgb(38, 103, 185), $lightness: 50%);
+  }
+}
+
+.icon {
+  background: rgb(38, 103, 185);
+  border-radius: .2em;
+  color: rgb(245, 245, 245);
+  display: inline-block;
+  margin-right: .5em;
+  padding-bottom: .1em;
+  text-align: center;
+  width: 1.3em;
+}

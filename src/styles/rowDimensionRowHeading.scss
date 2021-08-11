@@ -1,0 +1,13 @@
+@import './rowDimensionHeading';
+
+.rowDimensionRowHeading {
+    background: rgb(245, 245, 245);
+  
+    @extend .rowDimensionHeading;
+  }
+  
+  .rowDimensionRowLastHeading {
+    border-color: rgb(233, 233, 233);
+  
+    @extend .rowDimensionLastHeading;
+  }

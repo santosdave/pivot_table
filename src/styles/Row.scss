@@ -1,0 +1,56 @@
+@mixin border-vertical-style($style) {
+    border-bottom-style: $style;
+    border-top-style: $style;
+  }
+  
+  @mixin border-vertical-width($width) {
+    border-bottom-width: $width;
+    border-top-width: $width;
+  }
+  
+  @mixin padding-vertical($padding) {
+    padding-bottom: $padding;
+    padding-top: $padding;
+  }
+  
+$table-base-padding: 16px;
+
+$section-padding: $table-base-padding;
+
+.row {
+  color: rgb(78, 82, 85);
+
+  td {
+    @include padding-vertical($table-base-padding / 4);
+  }
+
+  th {
+    font-weight: normal;
+
+    &:first-child {
+      color: black;
+      font-weight: bold;
+    }
+  }
+}
+
+.sectionFirst {
+  &:first-child {
+    td,
+    th {
+      padding-top: $section-padding;
+    }
+  }
+
+  td,
+  th {
+    padding-top: $section-padding * 2;
+  }
+}
+
+.sectionLast {
+  td,
+  th {
+    padding-bottom: $section-padding;
+  }
+}

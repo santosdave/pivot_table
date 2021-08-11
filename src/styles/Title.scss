@@ -1,0 +1,15 @@
+
+$table-base-padding: 16px;
+.title {
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+  
+    th {
+      padding: {
+        left: $table-base-padding;
+        top: $table-base-padding;
+      }
+    }
+  }

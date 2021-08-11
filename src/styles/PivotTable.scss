@@ -1,0 +1,36 @@
+$table-base-padding: 16px;
+
+.pivotTable {
+    border-spacing: 0;
+    font-family:
+      -apple-system,
+      BlinkMacSystemFont,
+      'Segoe UI',
+      'Roboto',
+      'Oxygen',
+      'Ubuntu',
+      'Cantarell',
+      'Fira Sans',
+      'Droid Sans',
+      'Helvetica Neue',
+      sans-serif;
+    white-space: nowrap;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  
+    td {
+      &:first-of-type {
+        $shadow: black;
+  
+        background: linear-gradient(to right, scale-color($shadow, $alpha: -87%), scale-color($shadow, $alpha: -100%));
+        min-width: $table-base-padding / 2;
+      }
+    }
+  
+    th {
+      &:first-child {
+        padding-left: $table-base-padding;
+      }
+    }
+  }
+  
