@@ -1,5 +1,5 @@
 import { AggregatorProps } from '../../util/aggregation';
-import { DimensionValue } from '../../util/dimensions';
+import { DimensionValue } from '../../util/dimenssions';
 import { SubsectionProps } from '../sections';
 
 /**

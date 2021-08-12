@@ -1,6 +1,6 @@
 import React from 'react';
 import Body from './Body';
-import { getDimensionValues } from '../util/dimensions';
+import { getDimensionValues } from '../util/dimenssions';
 import { Head } from './head';
 import styles from '../styles/PivotTable.scss';
 import { PivotTableProps } from './PivotTableProps';

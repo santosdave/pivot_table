@@ -1,4 +1,4 @@
-import { DimensionValue } from '../../util/dimensions';
+import { DimensionValue } from '../../util/dimenssions';
 
 /**
  * Aggregated data to display in a row of the pivot table.

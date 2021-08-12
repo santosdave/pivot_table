@@ -29,7 +29,7 @@ export default function Body<T, M extends keyof T>(
 
   const rowData = getRows(props);
 
-  const sections = firstDimension.values.map((value: unknown) => {
+  const sections = firstDimension.values.map(value => {
     const { dimension } = firstDimension;
 
     const exclusiveFirstRow = { dimension, values: [value] };

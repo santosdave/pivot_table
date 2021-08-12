@@ -1,5 +1,5 @@
 import { aggregate, AggregatorProps } from '../../util/aggregation';
-import { getDimensionValueCombinations } from '../../util/dimensions';
+import { getDimensionValueCombinations } from '../../util/dimenssions';
 import { RowData } from './RowData';
 
 /**

@@ -1,4 +1,4 @@
-import { DimensionValues } from '../dimensions';
+import { DimensionValues } from '../dimenssions';
 import { PivotTableProps } from '../../components/PivotTableProps';
 
 /**

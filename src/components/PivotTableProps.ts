@@ -1,5 +1,5 @@
 import { Aggregator } from '../util/aggregation';
-import { Dimension } from '../util/dimensions';
+import { Dimension } from '../util/dimenssions';
 import { TitleNames } from './head';
 
 /**

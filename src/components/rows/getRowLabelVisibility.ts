@@ -1,4 +1,4 @@
-import { DimensionValue } from '../../util/dimensions';
+import { DimensionValue } from '../../util/dimenssions';
 import { RowLabelVisibility } from './RowLabelVisibility';
 
 /**
