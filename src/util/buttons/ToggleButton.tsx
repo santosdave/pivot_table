@@ -1,6 +1,6 @@
 import React, { SyntheticEvent } from 'react';
 import { ToggleButtonProps } from './ToggleButtonProps';
-import styles from '../../styles/ToogleButtonProps.scss';
+import styles from '../../styles/ToogleButtonProps.module.scss';
 
 /**
  * A button that toggles the visibility of a section of the pivot table.

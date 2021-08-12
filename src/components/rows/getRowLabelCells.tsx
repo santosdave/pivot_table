@@ -1,6 +1,6 @@
 import React from 'react';
 import { CollapseButton } from '../../util/buttons';
-import headingStyles from '../../styles/rowDimensionRowHeading.scss';
+import headingStyles from '../../styles/rowDimensionRowHeading.module.scss';
 import { RowLabelVisibility } from './RowLabelVisibility';
 
 const { rowDimensionRowHeading, rowDimensionRowLastHeading } = headingStyles;

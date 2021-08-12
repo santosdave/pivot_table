@@ -1,6 +1,6 @@
 import React from 'react';
 import { AggregatorProps } from '../util/aggregation';
-import styles from '../styles/Body.scss';
+import styles from '../styles/Body.module.scss';
 import { getRows } from './rows';
 import { Section } from './sections';
 

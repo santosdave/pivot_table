@@ -1,9 +1,9 @@
 import React from 'react';
-import rowDimensionStyles from '../../styles/rowDimensionHeading.scss';
-import columnStyles from '../../styles/columnCell.scss';
-import styles from '../../styles/Heading.scss';
+import rowDimensionStyles from '../../styles/rowDimensionHeading.module.scss';
+import columnStyles from '../../styles/columnCell.module.scss';
+import styles from '../../styles/Heading.module.scss';
 import { HeadingProps } from './HeadingProps';
-import rowStyles from '../../styles/tableHeadingRow.scss';
+import rowStyles from '../../styles/tableHeadingRow.module.scss';
 
 const { columnCell } = columnStyles;
 

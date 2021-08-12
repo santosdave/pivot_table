@@ -1,4 +1,4 @@
-@import './rowDimensionRowHeading';
+@import './rowDimensionRowHeading.module';
 
 @mixin border-vertical-style($style) {
     border-bottom-style: $style;

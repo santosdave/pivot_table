@@ -1,8 +1,8 @@
 import React from 'react';
 import { aggregate, AggregatorProps } from '../../util/aggregation';
-import columnCellStyles from '../../styles/columnCell.scss';
-import headingStyles from '../../styles/rowDimensionHeading.scss';
-import styles from '../../styles/TotalRow.scss';
+import columnCellStyles from '../../styles/columnCell.module.scss';
+import headingStyles from '../../styles/rowDimensionHeading.module.scss';
+import styles from '../../styles/TotalRow.module.scss';
 
 /**
  * The final total row of the pivot table, which summarizes the dataset along

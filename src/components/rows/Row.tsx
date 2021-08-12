@@ -3,7 +3,7 @@ import { getRowColumnCells } from './getRowColumnCells';
 import { getRowLabelCells } from './getRowLabelCells';
 import { getRowLabelVisibility } from './getRowLabelVisibility';
 import { getSectionLast } from './getSectionLast';
-import styles from '../../styles/Row.scss';
+import styles from '../../styles/Row.module.scss';
 import { RowProps } from './RowProps';
 
 const { row } = styles;

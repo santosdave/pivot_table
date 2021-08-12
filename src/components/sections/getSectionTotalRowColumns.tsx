@@ -1,6 +1,6 @@
 import React from 'react';
 import { aggregate } from '../../util/aggregation';
-import columnCellStyles from '../../styles/columnCell.scss';
+import columnCellStyles from '../../styles/columnCell.module.scss';
 import { SectionTotalRowProps } from './SectionTotalRowProps';
 
 /**

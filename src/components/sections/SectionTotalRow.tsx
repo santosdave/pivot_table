@@ -1,8 +1,8 @@
 import React from 'react';
 import { ExpandButton } from '../../util/buttons';
-import headingStyles from '../../styles/rowDimensionHeading.scss';
+import headingStyles from '../../styles/rowDimensionHeading.module.scss';
 import { getSectionTotalRowColumns } from './getSectionTotalRowColumns';
-import styles from '../../styles/SectionRowTotal.scss';
+import styles from '../../styles/SectionRowTotal.module.scss';
 import { SectionTotalRowProps } from './SectionTotalRowProps';
 
 const { rowDimensionHeading } = headingStyles;

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../styles/Head.css';
+import /* styles from */ '../../styles/Head.css';
 import Heading from './Heading';
 import { HeadProps } from './HeadProps';
 import Title from './Title';
@@ -19,7 +19,7 @@ import Title from './Title';
     const [columnDimension] = columnDimensions;
   
     return (
-      <thead className={styles.head}>
+      <thead className={"head"}>
         <Title
           columnDimensions={[columnDimension]}
           rowDimensions={rowDimensions}

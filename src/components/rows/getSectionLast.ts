@@ -1,5 +1,5 @@
-import { DimensionValue } from '../../util/dimenssions';
-import styles from '../../styles/Row.scss';
+import { DimensionValue } from '../../util/dimensions';
+import styles from '../../styles/Row.module.scss';
 
 /**
  * Indicates whether the specified dimension values represent the final row in

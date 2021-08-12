@@ -1,7 +1,7 @@
 import React from 'react';
-import rowDimensionStyles from '../../styles/rowDimensionHeading.scss';
-import rowStyles from '../../styles/tableHeadingRow.scss';
-import styles from '../../styles/Title.scss';
+import rowDimensionStyles from '../../styles/rowDimensionHeading.module.scss';
+import rowStyles from '../../styles/tableHeadingRow.module.scss';
+import styles from '../../styles/Title.module.scss';
 import { TitleProps } from './TitleProps';
 
 const { rowDimensionHeading, rowDimensionLastHeading } = rowDimensionStyles;
