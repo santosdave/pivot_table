@@ -1,5 +1,5 @@
 import React from 'react';
-import { DimensionValues } from '../../util/dimenssions';
+import { DimensionValues } from '../../util/dimensions';
 import columnCellStyles from '../../styles/columnCell.scss';
 
 const { columnCell } = columnCellStyles;

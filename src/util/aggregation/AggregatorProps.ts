@@ -1,5 +1,5 @@
-import { DimensionValues } from '../dimenssions';
-import { PivotTableProps } from '../PivotTableProps';
+import { DimensionValues } from '../dimensions';
+import { PivotTableProps } from '../../components/PivotTableProps';
 
 /**
  * Properties accepted by components that display or have a descendant that

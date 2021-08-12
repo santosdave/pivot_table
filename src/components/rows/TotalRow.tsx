@@ -28,8 +28,8 @@ export default function TotalRow<T, M extends keyof T>(
   const columnProperty = column.dimension.property;
 
   const columnCells = column.values.length > 0
-    ? column.values.map((val: any) => {
-      const columnData = data.filter((record: { [x: string]: any; }) => record[columnProperty] === val);
+    ? column.values.map(val => {
+      const columnData = data.filter((record:any) => record[columnProperty] === val);
 
       const value = aggregate(columnData, metric, aggregator);
 

@@ -30,11 +30,11 @@ export function getSectionTotalRowColumns<T, M extends keyof T>(
 
   const rowProperty = dimension.dimension.property;
 
-  const sectionData = data.filter((record => record[rowProperty] === value);
+  const sectionData = data.filter((record:any )=> record[rowProperty] === value);
 
   return column.values.map((val: any) => {
     const aggregateValue = aggregate(
-      sectionData.filter((record: { [x: string]: any; }) => record[columnProperty] === val),
+      sectionData.filter((record:any) => record[columnProperty] === val),
       metric,
       aggregator
     );

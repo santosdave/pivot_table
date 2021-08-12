@@ -1,5 +1,5 @@
 import { aggregate, AggregatorProps } from '../../util/aggregation';
-import { getDimensionValueCombinations } from '../../util/dimenssions';
+import { getDimensionValueCombinations } from '../../util/dimensions';
 import { RowData } from './RowData';
 
 /**
@@ -34,7 +34,7 @@ export function getRows<T, M extends keyof T>({
     .map(dimensionValues => ({
       data: column.values.map(columnValue => aggregate(
         data.filter(
-          record=>
+          (record:any)=>
            dimensionValues.every(
               ({ dimension, value }) =>
                 record[dimension.property] === value

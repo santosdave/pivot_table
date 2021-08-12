@@ -1,4 +1,4 @@
-import { DimensionValue } from '../../util/dimenssions';
+import { DimensionValue } from '../../util/dimensions';
 import styles from '../../styles/Row.scss';
 
 /**
