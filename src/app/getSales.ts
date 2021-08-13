@@ -9,9 +9,9 @@ import sales from "./sales.json";
  */
 export async function getSales(): Promise<Sales[]> {
   /**
- * Retrieves the sales to aggregate in the pivot table.
+ * A fetch Api that retrieves sales data from a remote api.
  *
- * @returns A promise that resolves with the orders.
+ * @returns It is packaged into a json data format.
  */
 
 
@@ -28,5 +28,6 @@ export async function getSales(): Promise<Sales[]> {
   function async() {
     throw new Error("Function not implemented.");
   } */
+  /* const salesData=sales.sort((a, b) => parseFloat(a.sales) - parseFloat(b.sales)); */
   return Promise.resolve(sales);
 }
